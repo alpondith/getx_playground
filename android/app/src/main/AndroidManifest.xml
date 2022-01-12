@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alpondith.getx.getx_playground">
+    package="com.example.getx_api_state_mixin">
    <application
-        android:label="getx_playground"
+        android:label="getx_api_state_mixin"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,6 +1,6 @@
 {
-    "name": "getx_playground",
-    "short_name": "getx_playground",
+    "name": "getx_api_state_mixin",
+    "short_name": "getx_api_state_mixin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

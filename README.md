@@ -1,4 +1,4 @@
-# getx_playground
+# getx_api_state_mixin
 
 A new Flutter project.
 
