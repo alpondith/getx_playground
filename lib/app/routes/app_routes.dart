@@ -4,17 +4,15 @@ part of 'app_pages.dart';
 abstract class Routes {
   Routes._();
 
-
-  static const CONTACT = _Paths.CONTACT;
-  static const DIALPAD = _Paths.DIALPAD;
+  static const CALL = _Paths.CALL;
   static const HISTORY = _Paths.HISTORY;
+  static const CONTACT = _Paths.CONTACT;
 }
 
 abstract class _Paths {
   _Paths._();
 
-
-  static const CONTACT = '/contact';
-  static const DIALPAD = '/dialpad';
+  static const CALL = '/call';
   static const HISTORY = '/history';
+  static const CONTACT = '/contact';
 }

@@ -1,4 +1,4 @@
-package com.alpondith.getx.getx_playground
+package com.example.flutter_application_15
 
 import io.flutter.embedding.android.FlutterActivity
 

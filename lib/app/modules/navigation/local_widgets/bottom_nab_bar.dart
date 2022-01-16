@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_15/app/routes/app_pages.dart';
 import 'package:get/get.dart';
-import 'package:getx_playground/app/routes/app_pages.dart';
 
-
-class CustomBottomNavbar extends StatelessWidget {
-  const CustomBottomNavbar({
+class BottomNavBar extends StatelessWidget {
+  const BottomNavBar({
     Key? key,
   }) : super(key: key);
 
@@ -12,24 +11,24 @@ class CustomBottomNavbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomAppBar(
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           IconButton(
-            icon: Icon(Icons.menu),
+            icon: Icon(Icons.call),
             onPressed: () {
-              Get.toNamed(Routes.CONTACT);
+              Get.offAllNamed(Routes.CALL);
             },
           ),
           IconButton(
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.history),
             onPressed: () {
-              Get.toNamed(Routes.DIALPAD);
+              Get.offAllNamed(Routes.HISTORY);
             },
           ),
           IconButton(
-            icon: Icon(Icons.more_vert),
+            icon: Icon(Icons.people),
             onPressed: () {
-              Get.toNamed(Routes.HISTORY);
+              Get.offAllNamed(Routes.CONTACT);
             },
           ),
         ],

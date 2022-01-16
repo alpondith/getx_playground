@@ -1,4 +1,4 @@
-name: getx_playground
+name: flutter_application_15
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
@@ -13,7 +13,6 @@ dependencies:
 
 dev_dependencies: 
   flutter_lints: ^1.0.0
-  lints: 1.0.1
   flutter_test: 
     sdk: flutter
 
